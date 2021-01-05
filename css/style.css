@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+img{
+    width: 80%;
+}
+p{
+    color: gray;
+}
+ul li{
+    list-style: none;
+}
+section{
+    overflow: hidden;
+}
+/* Navbar style */
+.nav{
+    padding-top: 37px;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.nav ul li{
+    float: left;
+    color: gray;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+.nav ul li a{
+    color: gray;
+}
+
+/* Banner Area */
+.half-width{
+    width: 50%;
+    float: left;
+}
+.banner-area-title {
+    font-size: 80px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #363958;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 165px;
+}
+.banner-area-title span{
+    color: #FF8367;
+}
+.banner-area p{
+    width: 70%;
+}
+.link-button {
+    background-image: linear-gradient(45deg, #f1897a, #f95450);
+    padding: 20px 40px;
+    border-radius: 6px;
+    display: inline-block;
+    color: #fff;
+}
+
+/* About Area */
+
+.about-area h1 {
+    font-size: 48px;
+    margin-top: 170px;
+    margin-bottom: 17px;
+}
+.about-area-single{
+    padding-left: 100px;
+}
+.about-area-single p{
+    margin-bottom: 40px;
+}
+
+/* Letest working project area */
+.working-project-area {
+    background: #F8F9FC;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.working-project-area .section-title{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.working-project-single {
+    width: 28%;
+    float: left;
+    box-shadow: 4px 6px 20px grey;
+    margin-right: 1%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 12px;
+    margin-left: 21px;
+    margin-top: 20px;
+}
+.working-project-single img{
+    width: 100%;
+}
+.working-project-single h3{
+    color: #363958;
+    font-size: 24px;
+}
+
+/* Work Enquiry */
+section.work-inquiry {
+    width: 60%;
+    margin: auto;
+    background-image: url(../shape/Group_33094_1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    border-radius: 30px;
+    height: 200px;
+}
+.work-inquiry-half {
+    width: 50%;
+    float: left;
+}
+section.work-inquiry h1 {
+    margin-top: 14%;
+    margin-left: 20%;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+section.work-inquiry a {
+    margin-top: 14%;
+    margin-left: 45%;
+}
+/* Footer area */
+.footer-wrp {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.social-icon {
+    overflow: hidden;
+    width: 185px;
+    margin: auto;
+}
+.social-icon ul li{
+    width: 35px;
+    float: left;
+}
+.footer-wrp h3{
+    font-family: 'Bebas Neue', cursive;
+    color: gray;
+}
