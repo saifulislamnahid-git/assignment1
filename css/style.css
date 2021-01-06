@@ -57,14 +57,14 @@ section{
     margin-bottom: 20px;
     margin-top: 165px;
 }
-.banner-area-title span{
-    color: #FF8367;
+.banner-area-title span {
+    color: #23c4df;
 }
 .banner-area p{
     width: 70%;
 }
 .link-button {
-    background-image: linear-gradient(45deg, #f1897a, #f95450);
+    background-image: linear-gradient(45deg, #1fcbdc, #5049d1);
     padding: 20px 40px;
     border-radius: 6px;
     display: inline-block;
@@ -91,11 +91,14 @@ section{
     padding-bottom: 100px;
     padding-top: 50px;
 }
-.working-project-area .section-title{
+.section-title{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
     margin-bottom: 20px;
+}
+.single-color {
+    color: #4a74e2;
 }
 .working-project-single {
     width: 28%;
@@ -114,6 +117,35 @@ section{
 .working-project-single h3{
     color: #363958;
     font-size: 24px;
+}
+
+/* Service area */
+.service-area{
+    padding: 80px 0px;
+}
+.service-area .half-width {
+    background-color: #3498db;
+    width: 28%;
+    margin-right: 2%;
+    padding: 24px;
+    border-radius: 10px;
+    color: #fff;
+}
+.service-area h1 {
+    margin-bottom: 75px;
+}
+.service-area .half-width:last-child {
+    margin-right: 0px;
+}
+.service-area .half-width h3 {
+    font-size: 26px;
+    margin: 10px 0px;
+    color: #fad362;
+}
+.service-area .half-width p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 23px;
 }
 
 /* Work Enquiry */
